@@ -1,0 +1,41 @@
+Changelog
+=========
+
+v2.0.0 (2016-09-09)
+-------------------
+
+#. Completely rewritten, works in PY2 and PY3
+#. Support new Kobo db schema
+
+
+v1.0.5 (2016-09-03)
+-------------------
+
+#. Tested new Kobo DB schema
+
+
+v1.0.4 (2016-06-23)
+-------------------
+
+#. Emergency fix for new Kobo DB schema
+
+
+v1.0.3 (2015-01-23)
+-------------------
+
+#. Added options -l and -b (suggested by Pierre-Arnaud Rabier)
+
+
+v1.0.2 (2013-05-11)
+-------------------
+
+#. Better usage text
+
+
+v1.0.1 (2013-04-30)
+-------------------
+
+#. Initial release
+
+
+
