@@ -3,7 +3,7 @@
 A Python tool to export annotations and highlights from a Kobo SQLite file.
 
 * Version: 2.0.0
-* Date: 2016-09-08
+* Date: 2016-09-09
 * Developer: [Alberto Pettarin](http://www.albertopettarin.it/)
 * License: the MIT License (MIT)
 * Contact: [click here](http://www.albertopettarin.it/contact.html)
@@ -61,7 +61,7 @@ $ python export-kobo.py KoboReader.sqlite --bookid 12
     ```bash
     $ git clone https://github.com/pettarin/export-kobo
     ```
-   or manually download the ZIP file from the [Releases tab](https://github.com/pettarin/export-kobo/Releases/) and unzip it somewhere;
+   or manually download the ZIP file from the [Releases tab](https://github.com/pettarin/export-kobo/releases/) and unzip it somewhere;
 
 3. Enter the directory where ``export-kobo.py`` is:
     ```bash
@@ -147,7 +147,8 @@ Check that you wrote the book title exactly as printed by ``--list``
    and hence the old database schema,
    you might want to use one of the scripts in the ``old/`` directory.
    Note, however, that those scripts are very old, possibly buggy,
-   and they are no longer supported.
+   and they are no longer supported
+   ([old Web page](http://www.albertopettarin.it/exportnotes.html)).
 
 2. Since I no longer use a Kobo eReader,
    this project is maintained in "legacy mode".
