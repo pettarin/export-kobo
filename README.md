@@ -48,13 +48,18 @@ $ # export annotations and highlights for the book "Alice in Wonderland"
 $ python export-kobo.py KoboReader.sqlite --book "Alice in Wonderland"
 
 $ # as above, assuming "Alice in Wonderland" has ID "12" in the list printed by --list
-$ python export-kobo.py KoboReader.sqlite --bookid 12 
+$ python export-kobo.py KoboReader.sqlite --bookid 12
 ```
 
 
 ## Installation
 
-1. Install Python, 3.x (recommended), or 2.7.x, 
+If you are a Windows user and you need help with Python,
+please follow [this step-by-step guide](https://github.com/pettarin/python-on-windows).
+
+Installing **export-kobo** is relatively simple:
+
+1. Install Python, 3.x (recommended), or 2.7.x,
    and make sure you have the ``python`` command available in your shell;
 
 2. Clone this repository:
@@ -81,6 +86,12 @@ $ python export-kobo.py KoboReader.sqlite --bookid 12
 
 
 ## Troubleshooting
+
+### I am on Windows, but I do not know how to install Python
+
+You can find a complete step-by-step guide to install Python
+and run **export-kobo** at the following URL:
+[https://github.com/pettarin/python-on-windows](https://github.com/pettarin/python-on-windows)
 
 ### I am on Windows, and I get this error: ``python is not recognized as an internal or external command, operable program or batch file``
 
