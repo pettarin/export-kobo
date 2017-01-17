@@ -2,8 +2,8 @@
 
 A Python tool to export annotations and highlights from a Kobo SQLite file.
 
-* Version: 2.0.0
-* Date: 2016-09-09
+* Version: 2.1.0
+* Date: 2017-01-17
 * Developer: [Alberto Pettarin](http://www.albertopettarin.it/)
 * License: the MIT License (MIT)
 * Contact: [click here](http://www.albertopettarin.it/contact.html)
@@ -20,11 +20,17 @@ $ python export-kobo.py --help
 $ # export to file instead of stdout
 $ python export-kobo.py KoboReader.sqlite --output /path/to/out.txt
 
-$ # export as CSV
+$ # export in CSV format
 $ python export-kobo.py KoboReader.sqlite --csv
 
-$ # export as CSV to file
+$ # export in CSV format to file
 $ python export-kobo.py KoboReader.sqlite --csv --output /path/to/out.csv
+
+$ # export in Kindle My Clippings format
+$ python export-kobo.py KoboReader.sqlite --kindle
+
+$ # export in Kindle My Clippings to file
+$ python export-kobo.py KoboReader.sqlite --kindle --output /path/to/out.csv
 
 $ # export annotations only
 $ python export-kobo.py KoboReader.sqlite --annotations-only
@@ -183,6 +189,7 @@ Check that you wrote the book title exactly as printed by ``--list``
 
 * Pierre-Arnaud Rabier suggested adding an option to extract the annotations and highlights for a single ebook.
 * Nick Kalogirou and Andrea Moro provided me with theirs KoboReader.sqlite file with the new schema.
+* Curiositry suggested adding an option to extract in Kindle My Clippings format.
 
 
 ## License
