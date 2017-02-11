@@ -69,7 +69,7 @@ MONTHS = [
     u"September",
     u"October",
     u"November",
-    u"Dicember",
+    u"December",
 ]
 
 
