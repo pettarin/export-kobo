@@ -42,7 +42,7 @@ __email__ = "alberto@albertopettarin.it"
 __copyright__ = "Copyright 2013-2017, Alberto Pettarin (www.albertopettarin.it)"
 __license__ = "MIT"
 __status__ = "Production"
-__version__ = "2.1.0"
+__version__ = "2.1.1"
 
 
 PY2 = (sys.version_info[0] == 2)
