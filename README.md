@@ -90,6 +90,12 @@ Installing **export-kobo** is relatively simple:
     $ python export-kobo.py KoboReader.sqlite
     ```
 
+NOTE (2018-02-28): Frederic Da Vitoria confirms that the export script
+also works if you have the Kobo application for Windows PC.
+In this case the database file is called ``Kobo.sqlite``
+and is located in the directory
+``C:\Users\[your user name]\AppData\Local\Kobo\Kobo Desktop Edition\``.
+
 
 ## Troubleshooting
 
@@ -187,10 +193,11 @@ Check that you wrote the book title exactly as printed by ``--list``
 
 ## Acknowledgments
 
-* Chris Krycho contributed a fix for a typo in month names
+* Chris Krycho contributed a fix for a typo in month names.
 * Pierre-Arnaud Rabier suggested adding an option to extract the annotations and highlights for a single ebook.
 * Nick Kalogirou and Andrea Moro provided me with theirs KoboReader.sqlite file with the new schema.
 * Curiositry suggested adding an option to extract in Kindle My Clippings format.
+* Frederic Da Vitoria confirmed that the export script works for the Kobo app for Desktop PC.
 
 
 ## License
