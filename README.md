@@ -2,8 +2,8 @@
 
 A Python tool to export annotations and highlights from a Kobo SQLite file.
 
-* Version: 2.1.1
-* Date: 2017-02-12
+* Version: 2.1.2
+* Date: 2018-07-11
 * Developer: [Alberto Pettarin](http://www.albertopettarin.it/)
 * License: the MIT License (MIT)
 * Contact: [click here](http://www.albertopettarin.it/contact.html)
@@ -198,6 +198,7 @@ Check that you wrote the book title exactly as printed by ``--list``
 * Nick Kalogirou and Andrea Moro provided me with theirs KoboReader.sqlite file with the new schema.
 * Curiositry suggested adding an option to extract in Kindle My Clippings format.
 * Frederic Da Vitoria confirmed that the export script works for the Kobo app for Desktop PC.
+* Matthieu Nantern contributed the ``raw`` export mode.
 
 
 ## License
