@@ -331,6 +331,11 @@ class ExportKobo(CommandLineTool):
             "action": "store_true",
             "help": "Print information about the number of annotations and highlights"
         },
+        {
+          "name": "--raw",
+          "action": "store_true",
+          "help": "Output in raw text instead of human-readable format"
+        },
     ]
 
     # NOTE: not a tuple, just a continuation string!
@@ -393,6 +398,8 @@ class ExportKobo(CommandLineTool):
             elif self.vargs["csv"]:
                 # CSV format
                 acc = self.list_to_csv([i.csv_tuple() for i in items])
+            elif self.vargs["raw"]:
+                acc = u"\n".join([(u"%s\n" % i.text) for i in items])
             else:
                 # human-readable format
                 acc = u"\n".join([(u"%s\n" % i) for i in items])
